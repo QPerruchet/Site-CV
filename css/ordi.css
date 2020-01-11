@@ -1,19 +1,15 @@
 @media screen and (min-width: 992px){
-
-.img{
+	.img{
 	background: lightblue;
 	width: 250px;
 	position: absolute;
 }
-
-
-
-.nom{
+	.nom{
 	margin: 40px;
 	margin-top: 10px;
 	margin-left: 300px;
 }
-
+	
 aside{
 	display: initial;
 	float: left;
@@ -23,23 +19,20 @@ aside{
 }
 
 #blocDroit{
-	margin-left: 300px;
-	
+	margin-left: 300px;	
 }
-
-
-
+	
 .dateParcours{
 	display: inline;
 	position: absolute;
 
 }
-
+	
 .intituleParcours{
 	display: inline;
 	margin: 300px;
 }
-
+	
 #p2{
 	display: inline;
 	color: black;
