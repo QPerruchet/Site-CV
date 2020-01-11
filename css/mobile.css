@@ -6,9 +6,11 @@
 }
 
 .nom{
+	float: top;
 	margin-left: 300px;
 }
 
 aside {
 	margin-top: 90px;	
+}
 }
