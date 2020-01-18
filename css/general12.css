@@ -48,6 +48,7 @@ aside span{
 }
 /*Pour les titres de rubriques du bloc droit*/
 em{
+	margin-left: 1.5em;
 	font-size: 1.5em;
 }
 /*pour le prénom dans le bloc nom en haut, définition d'une couleur différente*/
