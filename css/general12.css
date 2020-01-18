@@ -1,3 +1,12 @@
+/*
+general12.css
+Auteur: Quentin Perruchet
+Date: 18/01/2020
+Version: 1.1
+
+Feuille de style  contenant toutes les propriétés CSS communes aux éléments du site. 
+*/
+
 body {
 	background-color: white;
 }
@@ -45,7 +54,7 @@ em{
 #prenom{
 	color: lightblue;
 }
-/*titres dansla section droite*/
+/*titres dans la section droite*/
 h1 {
 	color: blue;
 	font-weight: bold;
