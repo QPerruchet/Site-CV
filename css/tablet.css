@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+
+
+.img{
+	width: 250px;
+	position: absolute;
+}
+
+.nom{
+float: top;
+margin-left: 300px;
+}
+
+aside {
+  margin-top: 130px;
+}
