@@ -1,0 +1,62 @@
+@media screen and (min-width: 992px){
+	
+
+
+
+
+	/*Tout ce qui fais partis du bloc gauche ( l'aside)*/
+
+	 /*La div de l'image, qui sert au potisionnement*/
+	.img{
+		background: lightblue;
+		width: 250px;
+		position: absolute;
+	}
+
+	/*définition des caractéristiques du bloc en bleu clair ( aside) */
+	aside{
+		display: initial;
+		float: left;
+		width:250px;
+		margin-top: 75px;
+		height: 100%;
+	}
+
+	/*fin du bloc aside*/
+
+
+
+
+	/*Tout ce qui fait partis du bloc droit*/
+
+	/*le nom dans le strong, pour placer le block du nom*/
+	.nom{
+	margin: 40px;
+	margin-top: 10px;
+	margin-left: 300px;
+	}
+
+
+
+	/*placement de tout le bloc droit*/
+	#blocDroit{
+		margin-left: 300px;
+		
+	}
+
+
+	/*placement des dates de ce que j'ai fais*/
+	.dateParcours{
+		display: inline;
+		position: absolute;
+
+	}
+
+	/*placement de ce que j'ai fais*/
+	.intituleParcours{
+		display: inline;
+		margin: 300px;
+	}
+	
+	/*Fin du bloc droit */
+}

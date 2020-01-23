@@ -1,0 +1,151 @@
+/*
+general12.css
+Auteur: Quentin Perruchet
+Date: 21/01/2020
+Version: 1.1
+Feuille de style  contenant toutes les propriétés CSS pour tablettes et mobiles. 
+*/
+
+
+body {
+	background-color: white;
+}
+
+
+
+/* "header" pour ce qui est au dessus de l'asside ( partie en bleu clair)*/
+
+ /*La div de l'image, qui sert au potisionnement*/
+.img{
+	width: 250px;
+	position: absolute;
+}
+
+/*l'id de l'image qui permet de lui définir une taille et une bordure*/
+#photoQuentinPerruchet{
+	width: 180px;
+	height: 180px;
+	border: 3px solid black;
+}
+
+/*le nom dans le strong, pour placer le block du nom*/
+#nom{
+	display: block;
+	margin-left: 235px;
+	margin-top: 30px;
+}
+/*pour le prénom dans le bloc nom en haut, définition d'une couleur différente*/
+#prenom{
+	color: lightblue;
+}
+
+/*définition de la taille et la police d'écriture du bloc du nom*/
+strong{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.fonction{
+	display: block;
+	margin-left: 250px;
+
+}
+/*fin du "header*/
+
+
+
+
+
+/*Bloc de l'aside (couleur bleu clair)*/
+
+/*définition des caractéristiques du bloc en bleu clair ( aside) */
+aside{
+	margin-top: 150px;
+	text-align: justify;
+	background-color: lightblue;
+	max-width: 100%;
+}
+
+
+aside section ul li{
+	white-space: pre;
+}
+
+/*titre de l'aside, bloc gauche*/
+aside section p:first-child/*nth-child(1)*/{
+	color:red;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+
+#contact{
+	display: inline-block;
+}
+
+#loisirs{
+	display: inline-block;
+
+}
+
+#aPropos{
+	display: inline-block;
+
+}
+
+
+/*Fin de ce qui se trouve dans l'aside*/
+
+
+
+
+/*Tout ce qui se trouve sous l'aside*/
+
+/*Pour la couleur des icones de la section du bloc droit*/
+section p i{
+	color: blue;/*#00f ou rgba (0,0,255,1)*/
+}
+
+/*pour ce que j'ai fais*/
+.intituleParcours{
+	color: teal;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+/*les dates de ce que j'ai fais*/
+.dateParcours{
+	color: teal;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#parcours section:nth-child(3) ul li{
+	white-space: pre;
+	margin-bottom: 5em;
+	font-size: 1.5em;
+}
+
+/*Fin du "bloc droit"*/
+
+
+
+
+
+/*Tout ce qui est général a tous les "blocs"*/
+
+/*Pour tous les paragraphes*/
+p {
+	font-family: monospace;
+	font-size: 20px;
+}
+
+/*Pour les titres de rubriques du "bloc droit"*/
+em{
+	margin-left: 0.5em;
+	font-size: 1.5em;
+	color: blue;
+	font-weight: bold;
+}
+/*Fin de la partie générale*/
