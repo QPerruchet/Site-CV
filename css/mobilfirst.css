@@ -78,7 +78,7 @@ aside section ul li{
 }
 
 /*titre de l'aside, bloc gauche*/
-aside section h:first-child/*nth-child(1)*/{
+aside section h2:first-child/*nth-child(1)*/{
 	color:red;
 	font-weight: bold;
 	font-size: 2em;
@@ -98,7 +98,7 @@ aside section h:first-child/*nth-child(1)*/{
 /*Tout ce qui se trouve sous l'aside*/
 
 /*Pour la couleur des icones de la section du bloc droit*/
-section h i{
+section h2 i{
 	color: blue;/*#00f ou rgba (0,0,255,1)*/
 }
 
