@@ -18,7 +18,6 @@ body {
  /*La div de l'image, qui sert au potisionnement*/
 .img{
 	width: 250px;
-	margin-left: 5em;
 }
 
 /*l'id de l'image qui permet de lui définir une taille et une bordure*/
