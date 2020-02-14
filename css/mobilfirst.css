@@ -106,7 +106,7 @@ section h2 i{
 /*pour ce que j'ai fais*/
 .organisme, .emploi{
 	color: teal;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: bold;
 }
 
@@ -114,7 +114,7 @@ section h2 i{
 .periode{
 	display: inline-block;
 	color: teal;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: bold;
 	width: 6em;
 }
@@ -137,13 +137,13 @@ section h2 i{
 /*Pour tous les paragraphes*/
 p {
 	font-family: monospace;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 /*Pour les titres de rubriques du "bloc droit"*/
 em{
 	margin-left: 0.5em;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	color: blue;
 	font-weight: bold;
 }
