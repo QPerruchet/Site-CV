@@ -1,0 +1,85 @@
+/*
+desktop.css
+Auteur: Quentin Perruchet
+Date: 04/02/2020
+Version: 1.1
+Feuille de style  contenant toutes les propriétés CSS pour ordinateurs. 
+*/
+
+
+
+
+@media screen and (min-width: 992px){
+	
+
+	body{
+	    margin: auto;
+	    border: 1px solid #567C73;
+	    max-width: 900px;
+	    display: flex;
+	}
+
+
+	/*Tout ce qui fais partis du bloc gauche ( l'aside)*/
+
+	 /*La div de l'image, qui sert au potisionnement*/
+	.img{
+		width: 35%;
+	    padding-top: 5%;
+	    padding-bottom: 4%;
+	}
+
+	/*définition des caractéristiques du bloc en bleu clair ( aside) */
+	aside{
+	    display: flex;
+	    flex-direction: column;
+	    margin: 0 0 0 0;
+	    width: 35%;
+	    background-color: lightblue;
+	}
+
+	/*fin du bloc aside*/
+
+
+
+
+	/*Tout ce qui fait partis du bloc droit*/
+
+	/*le nom dans le strong, pour placer le block du nom*/
+	.nom{
+	margin: 40px;
+	margin-top: 10px;
+	}
+
+
+
+	/*placement de tout le bloc droit*/
+	#blocDroit{
+		display: block;
+		margin: 0 20px 0 5px;
+	}
+
+
+	/*placement des dates de ce que j'ai fais*/
+	.dateParcours{
+		display: inline;
+		position: absolute;
+
+	}
+
+	/*placement de ce que j'ai fais*/
+	.intituleParcours{
+		display: inline;
+		margin: 300px;
+	}
+	
+	.organisme, .emploi{
+	font-size: 130%;
+
+	}
+	.periode{
+		font-size: 130%;
+
+	}
+	/*Fin du bloc droit */
+}

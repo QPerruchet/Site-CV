@@ -1,0 +1,167 @@
+/*
+mobilfirst.css
+Auteur: Quentin Perruchet
+Date: 04/02/2020
+Version: 1.1
+Feuille de style  contenant toutes les propriétés CSS pour tablettes et mobiles. 
+*/
+
+
+body {
+	background-color: white;
+}
+
+
+
+/* "header" pour ce qui est au dessus de l'asside ( partie en bleu clair)*/
+
+ /*La div de l'image, qui sert au potisionnement*/
+.img{
+	width: 250px;
+}
+
+/*l'id de l'image qui permet de lui définir une taille et une bordure*/
+#photoQuentinPerruchet{
+	width: 180px;
+	height: 180px;
+	border: 1px;
+	border-radius: 50%;
+}
+
+/*le nom dans le strong, pour placer le block du nom*/
+#nom{
+	display: block;
+	margin-top: 30px;
+}
+/*pour le prénom dans le bloc nom en haut, définition d'une couleur différente*/
+#prenom{
+	color: lightblue;
+}
+
+/*définition de la taille et la police d'écriture du bloc du nom*/
+strong{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+/*caractéristiques de ce qui se place sous le nom*/
+.fonction{
+	display: block;
+}
+/*fin du "header*/
+
+
+
+
+
+/*Bloc de l'aside (couleur bleu clair)*/
+
+/*définition des caractéristiques du bloc en bleu clair ( aside) */
+aside{
+	padding-bottom: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 10px;
+	text-align: justify;
+	background-color: lightblue;
+	max-width: 100%;
+}
+
+/*définition des caractéristiques de la section dans l'asside*/
+aside section{
+	display: inline-block;
+}
+
+/*Pour le "retour a la ligne" de la liste dans l'asside*/
+aside section ul li{
+	white-space: pre;
+}
+
+/*titre de l'aside, bloc gauche*/
+aside section h2:first-child/*nth-child(1)*/{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #2cd093;
+}
+
+/*icon gamepad, pour un meilleur rendu visuel*/
+#icones{
+	margin-left: 15px;
+	margin-right: 25px;
+	border: 2px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: blue;
+
+}
+
+/*Fin de ce qui se trouve dans l'aside*/
+
+
+
+
+/*Tout ce qui se trouve sous l'aside*/
+
+/*Pour la couleur des icones de la section du bloc droit*/
+#blocDroit h2 i{
+	color: blue;/*#00f ou rgba (0,0,255,1)*/
+}
+
+/*pour ce que j'ai fais*/
+.organisme, .emploi{
+	color: teal;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*les dates de ce que j'ai fais*/
+.periode{
+	display: inline-block;
+	color: teal;
+	font-size: 18px;
+	font-weight: bold;
+	width: 6em;
+}
+
+/*caractéristiques des liste dans le parcours*/
+#parcours section:nth-child(3) ul li{
+	white-space: pre;
+	margin-bottom: 5em;
+	font-size: 18px;
+}
+
+/*Fin du "bloc droit"*/
+
+
+
+
+
+/*Tout ce qui est général a tous les "blocs"*/
+
+/*Pour tous les paragraphes*/
+p {
+	font-family: monospace;
+	font-size: 110%;
+
+}
+
+/*Pour les titres de rubriques du "bloc droit"*/
+em{
+	margin-left: 0.5em;
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+#blocDroit section{
+    border-top: 2px solid blue; 
+}
+	em{
+		font-size: 130%;
+	}
+/*Fin de la partie générale*/
